@@ -1,22 +1,39 @@
 
 
-section {
-    width: 200px;
-    border: 11px solid powderblue;
-  padding: 30px;
-  margin: 30px;v
-}
+
+"background-color": (
+      property: background-color,
+      class: bg,
+      values: map-merge(
+        $theme-colors,
+        (
+          "body": $body-bg,
+          "white": $white,
+          "transparent": transparent
+        )
+      )
+    ),
 
 
 
-h1 {
-    font-family:'Roboto', sans-serif;;
-    color: blue
-    ;
+
+
+
+
+
+  p1 {
+    font-family:'Roboto', sans-serif
+    width: 5px;
+  padding: 5px;
+  margin: 5px;v
+
  
-  font-weight: bold;
 
-}
+  }
 
+ 
+    
 
-  
+    
+
+    .foto1 { padding: 10px; margin: 10px; float: left; width: 80px; }
